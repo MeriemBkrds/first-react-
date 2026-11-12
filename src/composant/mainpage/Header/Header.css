@@ -1,0 +1,123 @@
+.main-head{
+
+    position:relative;
+
+    z-index:2;
+
+    color:white;
+}
+
+.top-bar{
+
+    height:65px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 90px;
+
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+.top-left,
+.top-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+}
+
+.line{
+
+    width:1px;
+
+    height:30px;
+
+    background:white;
+
+    opacity:.4;
+}
+
+.top-right svg{
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.top-right svg:hover{
+
+    color:#45b4ff;
+}
+
+.navbar{
+
+    height:90px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 90px;
+}
+
+.logo img{
+
+    width:140px;
+}
+
+.navbar ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:30px;
+}
+
+.navbar li{
+
+    font-size:12px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.navbar li:hover{
+
+    color:#45b4ff;
+}
+
+.listing-btn{
+
+    background:transparent;
+
+    color:white;
+
+    border:1px solid rgba(255,255,255,.6);
+
+    padding:15px 28px;
+
+    border-radius:4px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.listing-btn:hover{
+
+    background:white;
+
+    color:#20395f;
+}

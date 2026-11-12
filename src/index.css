@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+:root{
+  --second-color:#4A60A1;
+  --main-color:white;
+}

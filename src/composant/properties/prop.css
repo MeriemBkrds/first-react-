@@ -1,0 +1,79 @@
+.pro-area{
+    
+    height: 100vh;
+    background-color:#EDEFF6 ;
+}
+.First-Line{
+
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-area{
+
+    text-align: center;
+    width: 50%;
+
+}
+.Second-Line{
+
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 100px;
+   
+}
+
+.grid-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.card {
+    flex: 1;
+    padding: 35px 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card.active {
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card i {
+    font-size: 50px;
+    color: #5367b8;
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+.card p {
+    color: #8b8b8b;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.card a {
+    color: #5367b8;
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+
+.card:hover {
+    background: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+}

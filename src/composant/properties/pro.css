@@ -1,0 +1,78 @@
+.first-area{
+
+    height: 100vh;
+}
+.head-text{
+
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-area{
+    
+    text-align: center;
+    width: 50%;
+
+}
+.text-area > h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.text-area >p{
+    font-size: 20px;
+}
+.picture-area{
+
+    height: 60%;
+
+}
+.First-line{
+   
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.photo-grid{
+   
+    width: 95%;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+.Second-line{
+      
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+     
+}
+.area-photo{
+    
+    width: 424px;
+    height: 100%;
+    border-radius: 8px;
+}
+.big-photo{
+   
+    width: 868px;
+    height: 100%;
+}
+.area-photo img,
+.big-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
